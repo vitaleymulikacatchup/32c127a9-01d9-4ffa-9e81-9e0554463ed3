@@ -77,7 +77,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Sweet Dreams Bakery - Fresh Artisan Bread & Pastries Daily",
+  title: "Welcome to my Bakery - Fresh Artisan Bread & Pastries Daily",
   description: "Premium bakery serving fresh artisan breads, pastries, and custom cakes since 1985. Order online or visit our store for the finest baked goods in the city.",
   keywords: ["bakery", "fresh bread", "artisan pastries", "custom cakes", "sourdough", "croissants", "wedding cakes"],
   metadataBase: new URL("https://sweetdreamsbakery.com"),
@@ -85,9 +85,9 @@ export const metadata: Metadata = {
     canonical: "https://sweetdreamsbakery.com"
   },
   openGraph: {
-    title: "Sweet Dreams Bakery - Fresh Artisan Bread & Pastries Daily",
+    title: "Welcome to my Bakery - Fresh Artisan Bread & Pastries Daily",
     description: "Premium bakery serving fresh artisan breads, pastries, and custom cakes since 1985.",
-    siteName: "Sweet Dreams Bakery",
+    siteName: "Welcome to my Bakery",
     type: "website",
     images: [
       {
@@ -98,7 +98,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sweet Dreams Bakery - Fresh Artisan Bread & Pastries Daily",
+    title: "Welcome to my Bakery - Fresh Artisan Bread & Pastries Daily",
     description: "Premium bakery serving fresh artisan breads, pastries, and custom cakes since 1985.",
     images: ["https://images.pexels.com/photos/564883/pexels-photo-564883.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"]
   },

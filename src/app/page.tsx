@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -10,6 +10,19 @@ import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { Award, Star, Heart, Handshake, HelpCircle, Mail } from 'lucide-react';
+
+const assetMap = [
+  {
+    id: "bakery-logo",
+    url: "https://images.pexels.com/photos/34444367/pexels-photo-34444367.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    alt: "Welcome to my Bakery Logo"
+  },
+  {
+    id: "hero-image",
+    url: "https://images.pexels.com/photos/564883/pexels-photo-564883.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    alt: "Fresh artisan bread and pastries display"
+  }
+];
 
 export default function Home() {
   return (
@@ -28,14 +41,14 @@ export default function Home() {
             { name: "Contact", id: "contact" }
           ]}
           logoSrc="https://images.pexels.com/photos/34444367/pexels-photo-34444367.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-          logoAlt="Sweet Dreams Bakery Logo"
-          brandName="Sweet Dreams Bakery"
+          logoAlt="Welcome to my Bakery Logo"
+          brandName="Welcome to my Bakery"
         />
       </div>
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Freshly Baked Daily"
+          title="Welcome to my Bakery"
           description="Artisan breads, pastries, and custom cakes made with love using traditional techniques and the finest ingredients"
           tag="Est. 1985"
           tagIcon={Award}
